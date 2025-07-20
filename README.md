@@ -1,6 +1,6 @@
-This Board is a modified version of Bucket Mouse's DMGC CPU board which houses the majority of the electronics in the DMGC but adds the IR components as well.
+This Board is a modified version of Bucket Mouse's Original DMGC CPU board which houses the majority of the electronics in the DMGC and adds the IR components as well.
 
-Version 2.0 also introduces a test pad labelled "RST" that connects directly to the /RESET pin. If this pin is pulled to GND, when it's released it the system will reset back to the boot screen. If you wire this pad to a button that connects the pad to GND when pressed, you basically have added a reset button to your DMGC. 
+Version 2.0 of Bucket Mouse's original design introduced a test pad labelled "RST" that connects directly to the /RESET pin. If this pin is pulled to GND, when it's released then the system will reset back to the boot screen. If you wire this pad to a button that connects the pad to GND when pressed, you basically have added a reset button to your DMGC. 
 
 There are also pads near the FFC connector that are added labelled "PUSH" and "ROCK DOWN". These connect to the rocker switch on the DMGC-IPS-01 board (version 2.0 and later). The PUSH pad becomes connected to GND when the rocker switch is pushed in and floats when not pressed (as long as you remove R10 on the DMGC-IPS-01 board). The ROCK_DOWN pad connects to GND when the rocker switch is rocked down, and floats when not pressed (as long as you remove C5 on the DMGC-IPS-01 board).
 

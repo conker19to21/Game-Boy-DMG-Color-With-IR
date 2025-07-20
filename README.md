@@ -99,6 +99,8 @@ Here, I have provided links to components I used personally (or suitable replace
 | R18                                          | 1   | 150 ohm       | 0603 Capacitor | Resistor |  |  [https://mou.sr/4l9UBnU](https://mou.sr/4l9UBnU)
 | R19                                          | 1   | 1k ohm       | 0603 Capacitor | Resistor |  |  [https://mou.sr/3U0EvS4](https://mou.sr/3U0EvS4)
 | R20                                          | 1   | 2k ohm       | 0603 Capacitor | Resistor |  |  [https://mou.sr/4j6GOfR](https://mou.sr/4j6GOfR)
+| GBC IR Shield                                          | 1   |       | | IR Shield |  |  Salvaged (GBC)
+
 
 
 ## License

@@ -1,11 +1,21 @@
-# DMGC-CPU-01
+This Board is a modified version of Bucket Mouse's DMGC CPU board which houses the majority of the electronics in the DMGC but adds the IR components as well.
+I take no credit other then the added modifications done to implement the IR capabilities to his original design.
 
-![DMGC-CPU-01_2-3_scan](https://user-images.githubusercontent.com/97127539/212452961-b9c53a46-5c29-4012-afe8-3af43f842dfc.jpg)
-![DMGC-CPU-01_2-0_ASSEMBLED](https://user-images.githubusercontent.com/97127539/197366878-ae154a5e-c2df-48f9-88fb-2e1cacaa1770.jpg)
+A Cutout template for the IR sheild was also designed by EdvinDraw so the IR features can be used on NON clear shells as well.
 
-*The image above of the assembled board is of v2.0, not the current revision of v2.4. The differences in appearance are minor, see below.*
+You can find the cutout template print files <a href="https://www.thingiverse.com/thing:7093936">BY CLICKING HERE.</a>
 
-The CPU board houses the majority of the electronics in the DMGC. Parts harvested from the original GBC include the CPU, SRAM, and crystal oscillator. EM10 may be transferred as well, but a good enough replacement is included in the BOM if you need a new part. The power supply modifications, the new audio circuit, and a handful of omissions like the IR communication and some of the now-unnecessary LCD pins differentiate this build from the original GBC. But many connections and component values are pulled from the official GBC schematic (linked below).
+You can also see a Tutorial explanation how to make the cutout using the template also by EdvinDraw  <a href="https://youtu.be/QVl8f0OApuU?si=N8Pvns6AjUOso9O5">BY CLICKING HERE.</a>
+
+
+
+
+
+
+
+
+
+The CPU board houses the majority of the electronics in the DMGC. Parts harvested from the original GBC include the CPU, SRAM, crystal oscillator and IRED's . EM10 may be transferred as well, but a good enough replacement is included in the BOM if you need a new part. The power supply modifications, the new audio circuit, and a handful of omissions like the IR communication and some of the now-unnecessary LCD pins differentiate this build from the original GBC. But many connections and component values are pulled from the official GBC schematic (linked below).
 
 For a technical explanation of the CPU board, please view the README in the Technical folder.
 
@@ -19,11 +29,7 @@ The zipped folder contains all the gerber files for this board.
 
 *HASL will work, but will potentially be more difficult for soldering fine-pitch parts like the CPU and FFC connector.*
 
-<a href="https://www.etsy.com/listing/1317688422/game-boy-dmgc-cpu-board">**I sell this board on Etsy, so you don't have to buy multiples from board fabricators.**</a>
-
-You can alternatively use the zipped folder at any board fabricator you like. You may also buy the board from PCBWay using this link (disclosure: I receive 10% of the  sale value to go towards future PCB orders):
-
-<a href="https://www.pcbway.com/project/shareproject/Game_Boy_DMG_Color_DMGC_CPU_01_2f5c743d.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a> 
+You can alternatively use the zipped folder at any board fabricator you like. 
 
 ## Customization Options
 
@@ -100,58 +106,6 @@ Here, I have provided links to components I used personally (or suitable replace
 | VR1                                         | 1   | 10k               |             | Volume wheel       | Can be salvaged from DMG instead                                        | [https://aliexpi.com/qg1M](https://aliexpi.com/qg1M)                                                                                                                                                                                                                                                                             |
 | X1                                          | 1   | 8.388608MHz       | 7.5X5-4-PAD | Crystal oscillator | Potential replacement (not very space-friendly): https://mou.sr/3D5AUbH | Salvaged (GBC)                                                                                                                                                                                                                                                                                                                   |
 
-## Revision History
-
-### v2.5
-- Added space for adding <a href="https://shop.insidegadgets.com/product/gba-clockxcontrol/">ClockxControl by insideGadgets</a>
-
-### v2.4
-- Changed some reference designators for more consistency to source PCBs
-- Expanded slot for FFC to feed through to back of board
-
-### v2.3
-
-- Nudge volume dial to better center it in the shell
-
-### v2.2
-
-- Added more clearance on screwhole on cart connector
-- Adjusted screwhole placement near power switch
-- Removed unnecessary vestigal dots on X1 and EM10 silkscreen
-- Fixed tstop layer offset on SRAM package
-- Added CLK1/2 on backside silkscreen
-- Adjusted X1 through-hole location
-- Nudged volume dial out a bit
-- Add note about trimming wire stubs on PWR board connections
-- Cleaned up some trace layouts/silkscreen
-
-### v2.1
-
-- Fixed silkscreen text error on link port
-- Added through-holes for potential crystal oscillator replacement
-- Added test pad that connects to the rock-down function of the navigation dial on the IPS board
-- Moved version number text above cart connector footprint
-
-### v2.0
-
-- Changed holes to slots where applicable
-- Made board/part measurements more accurate
-- Added dedicated output pins for pro-sound output next to the negative battery tab
-- Updated crystal oscillator footprint to allow for later crystal packages
-- Added a test pad that connects to the push-in trigger for the rocker switch on the IPS board
-- Added a test pad connected to the reset line on the CPU for potential mods (pull to GND to reset the Game Boy)
-- Added LP line from CPU to FFC connector for potential use with another IPS kit
-
-### v1.3
-
-- Added test points to back of the board
-- Shifted FFC connector down a few mm
-
-### v1.2
-
-- Release version
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. You are able to copy and redistribute the material in any medium or format, as well as remix, transform, or build upon the material for any purpose (even commercial) - but you **must** give appropriate credit, provide a link to the license, and indicate if any changes were made.
-
-©MouseBiteLabs 2022

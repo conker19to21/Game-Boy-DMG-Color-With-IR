@@ -3,6 +3,8 @@ This Board is a modified version of <a href="https://github.com/MouseBiteLabs/Ga
 ![image](https://raw.githubusercontent.com/conker19to21/Game-Boy-DMG-Color-With-IR/refs/heads/main/top%20(6).png)
 ![image](https://raw.githubusercontent.com/conker19to21/Game-Boy-DMG-Color-With-IR/refs/heads/main/bottom%20(3).png)
 
+Shoutout to NatalieTheNerd for their amazing Reverse engineering work which was referrenced for this project and can be <a href="https://github.com/nataliethenerd/CGB_ReverseEngineer/tree/main">Found Here!</a>
+
 Download and use the gerber.zip file at your preferred PCB manufacture and use these Board Characteristics for proper fitment.
 ## Board Characteristics
 The gerber zipped folder contains all the gerber files for this board. 
@@ -19,7 +21,7 @@ I do not take any credit for Bucket Mouse's Board Design only the modifications 
 
 Be sure to check out Bucket Mouse's Original Github Post on the DMGC project which you can be <a href="https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main">Found Here!</a> and has a Huge breakdown of common issues and solutions to most issues which may occur during the building process.
 
-Additional Shout Out goes to EdvinDraw!
+Additional Major Shout Out goes to EdvinDraw!
 A IR shield cutout was designed by EdvinDraw and can be <a href="https://www.thingiverse.com/thing:7093936">Found Here!</a> for use with NON clear DMG shells.
 
 Additionally EdvinDraw had also made a Tutorial how to use and make the IR shield cutout which can be <a href="https://youtu.be/QVl8f0OApuU?si=GgzmjaVQX5JkgJGN">Found Here!</a>

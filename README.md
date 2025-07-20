@@ -1,5 +1,8 @@
 This Board is a modified version of <a href="https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-CPU-01">Bucket Mouse's Original DMGC CPU board</a> which houses the majority of the electronics in the DMGC but adds the IR components and capability as well.
 
+![image](https://raw.githubusercontent.com/conker19to21/Game-Boy-DMG-Color-With-IR/refs/heads/main/top%20(6).png)
+![image](https://raw.githubusercontent.com/conker19to21/Game-Boy-DMG-Color-With-IR/refs/heads/main/bottom%20(3).png)
+
 Download and use the gerber.zip file at your preferred PCB manufacture and use these Board Characteristics for proper fitment.
 ## Board Characteristics
 The gerber zipped folder contains all the gerber files for this board. 

@@ -5,6 +5,13 @@ This Board is a modified version of <a href="https://github.com/MouseBiteLabs/Ga
 
 Shoutout to NatalieTheNerd for their amazing Reverse engineering work which was referrenced for this project and can be <a href="https://github.com/nataliethenerd/CGB_ReverseEngineer/tree/main">Found Here!</a>
 
+Additional Major Shout Out goes to EdvinDraw!
+A IR shield cutout was designed by EdvinDraw and can be <a href="https://www.thingiverse.com/thing:7093936">Found Here!</a> for use with NON clear DMG shells.
+
+Additionally EdvinDraw had also made a Tutorial how to use and make the IR shield cutout which can be <a href="https://youtu.be/QVl8f0OApuU?si=GgzmjaVQX5JkgJGN">Found Here!</a>
+
+Also note the IR was tested on some clear shells and worked fine without the cutout or IR shield but may still be needed for some.
+
 Download and use the gerber.zip file at your preferred PCB manufacture and use these Board Characteristics for proper fitment.
 ## Board Characteristics
 The gerber zipped folder contains all the gerber files for this board. 
@@ -20,13 +27,6 @@ The gerber zipped folder contains all the gerber files for this board.
 I do not take any credit for Bucket Mouse's Board Design only the modifications done and implementation for the IR components which were added to it.
 
 Be sure to check out Bucket Mouse's Original Github Post on the DMGC project which you can be <a href="https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main">Found Here!</a> and has a Huge breakdown of common issues and solutions to most issues which may occur during the building process.
-
-Additional Major Shout Out goes to EdvinDraw!
-A IR shield cutout was designed by EdvinDraw and can be <a href="https://www.thingiverse.com/thing:7093936">Found Here!</a> for use with NON clear DMG shells.
-
-Additionally EdvinDraw had also made a Tutorial how to use and make the IR shield cutout which can be <a href="https://youtu.be/QVl8f0OApuU?si=GgzmjaVQX5JkgJGN">Found Here!</a>
-
-Also note the IR was tested on some clear shells and worked fine without the cutout or IR shield but may still be needed for some.
 
 Version 2.0 of Bucket Mouse's original design introduced a test pad labelled "RST" that connects directly to the /RESET pin. If this pin is pulled to GND, when it's released then the system will reset back to the boot screen. If you wire this pad to a button that connects the pad to GND when pressed, you basically have added a reset button to your DMGC. 
 

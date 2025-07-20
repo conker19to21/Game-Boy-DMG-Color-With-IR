@@ -26,7 +26,7 @@ The gerber zipped folder contains all the gerber files for this board.
 
 I do not take any credit for Bucket Mouse's Board Design only the modifications done and implementation for the IR components which were added to it.
 
-Be sure to check out Bucket Mouse's Original Github Post on the DMGC project which you can be <a href="https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main">Found Here!</a> and has a Huge breakdown of common issues and solutions to most issues which may occur during the building process.
+Be sure to check out Bucket Mouse's Original Github Post on the DMGC project which can be <a href="https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main">Found Here!</a> and has a Huge breakdown of common issues and solutions to most issues which may occur during the building process.
 
 Version 2.0 of Bucket Mouse's original design introduced a test pad labelled "RST" that connects directly to the /RESET pin. If this pin is pulled to GND, when it's released then the system will reset back to the boot screen. If you wire this pad to a button that connects the pad to GND when pressed, you basically have added a reset button to your DMGC. 
 

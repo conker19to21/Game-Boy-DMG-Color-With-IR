@@ -1,4 +1,13 @@
-This Board is a modified version of Bucket Mouse's Original DMGC CPU board which houses the majority of the electronics in the DMGC and adds the IR components as well.
+This Board is a modified version of <a href="https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-CPU-01">Bucket Mouse's Original DMGC CPU board</a> which houses the majority of the electronics in the DMGC but adds the IR components and capability as well.
+
+I do not take any credit for Bucket Mouse's Board Design only the modifications done and implementation for the IR components which were added to it.
+
+Be sure to check out Bucket Mouse's Original Github Post on the DMGC project which you can be <a href="https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main">Found Here!</a> and has a Huge breakdown of common issues and solutions to most issues which may occur during the building process.
+
+A IR shield cutout was designed by EdvinDraw and can be <a href="https://www.thingiverse.com/thing:7093936">Found Here!</a>
+
+Additionally EdvinDraw had also made a Tutorial how to use and make the IR shield cutout which can be <a href="https://youtu.be/QVl8f0OApuU?si=GgzmjaVQX5JkgJGN">Found Here!</a>
+
 
 Version 2.0 of Bucket Mouse's original design introduced a test pad labelled "RST" that connects directly to the /RESET pin. If this pin is pulled to GND, when it's released then the system will reset back to the boot screen. If you wire this pad to a button that connects the pad to GND when pressed, you basically have added a reset button to your DMGC. 
 
@@ -61,5 +70,3 @@ Here, I have provided links to components I used personally (or suitable replace
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. You are able to copy and redistribute the material in any medium or format, as well as remix, transform, or build upon the material for any purpose (even commercial) - but you **must** give appropriate credit, provide a link to the license, and indicate if any changes were made.
-
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
